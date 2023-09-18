@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/davidoqu/.vim'
+let g:netrw_dirhist_3='/usr/share/vim/vim82/doc'
+let g:netrw_dirhist_2='/home/davidoqu'
+let g:netrw_dirhist_1='/home/davidoqu/Code'
+let g:netrw_dirhist_0='/home/davidoqu/Code/Projects'
+let g:netrw_dirhist_9='/home/davidoqu/Code/Projects/data-structures'
+let g:netrw_dirhist_8='/home/davidoqu/Code/Projects/data-structures/array'
+let g:netrw_dirhist_7='/home/davidoqu/Code/Projects/data-structures'
+let g:netrw_dirhist_6='/home/davidoqu/Code/Projects'
+let g:netrw_dirhist_5='/home/davidoqu/Code/Projects/100Devs-Members'
