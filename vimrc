@@ -4,6 +4,9 @@ set nocompatible
 set number relativenumber
 set mouse=a
 set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
 set wrap
 set encoding=utf-8
 set ruler
