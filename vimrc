@@ -2,14 +2,18 @@
 syntax on
 set nocompatible
 set number relativenumber
+set encoding=utf-8
 set mouse=a
+set ruler
+set wrap
+
+" Indentation style (Spaces only)
+set expandtab
 set tabstop=4
 set shiftwidth=4
+set softtabstop=-1
+set smarttab
 set autoindent
-set smartindent
-set wrap
-set encoding=utf-8
-set ruler
 
 " Improves smoothness of redrawing with multiple windows 
 set ttyfast
