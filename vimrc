@@ -1,11 +1,15 @@
-
 syntax on
-set nocompatible
 set number relativenumber
 set encoding=utf-8
 set mouse=a
 set ruler
 set wrap
+
+" Disable compatability with vi
+set nocompatible
+
+" Try to detect the type of file in use
+filetype on
 
 " Indentation style (Spaces only)
 set expandtab
@@ -18,9 +22,12 @@ set autoindent
 " Improves smoothness of redrawing with multiple windows 
 set ttyfast
 
-" Blink cursor on error instead of beeping (grr)
+" Blink cursor on error instead of beeping
 set visualbell
 
+" Search settings
+set ignorecase " Ignores capital letters
+set incsearch  " Incrementally highlight matching characters as you search
 " Clears search highlighting
 nnoremap <CR> :noh<CR><CR>
 
@@ -39,3 +46,11 @@ augroup END
 function! NetrwMapping()
 	nnoremap <buffer> <C-l> :wincmd l<cr>
 endfunction
+
+" PLUGINS --------------------------------------
+
+" Need to install vim-plug https://github.com/junegunn/vim-plug
+
+" call plug#begin('~/.vim/plugged')
+
+" call plug#end()
