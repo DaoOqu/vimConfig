@@ -28,6 +28,10 @@ set visualbell
 " Search settings
 set ignorecase " Ignores capital letters
 set incsearch  " Incrementally highlight matching characters as you search
+
+
+" MAPPINGS ------------------------------------
+
 " Clears search highlighting
 nnoremap <CR> :noh<CR><CR>
 
@@ -46,6 +50,8 @@ augroup END
 function! NetrwMapping()
 	nnoremap <buffer> <C-l> :wincmd l<cr>
 endfunction
+
+
 
 " PLUGINS --------------------------------------
 
